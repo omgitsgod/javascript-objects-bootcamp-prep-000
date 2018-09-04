@@ -7,5 +7,5 @@ function updatePlaylist(uno, dos, tres) {
 
 function removeFromPlaylist(uno, dos) {
   delete uno.dos
-  return playlist
+  return uno
 }
