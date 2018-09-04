@@ -6,6 +6,6 @@ function updatePlaylist(uno, dos, tres) {
 }
 
 function removeFromPlaylist(uno, dos) {
-  delete uno.dos
+  delete uno[dos]
   return uno
 }
